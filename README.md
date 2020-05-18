@@ -22,7 +22,7 @@
 
 - Code execution should take less than 1 minute for batches of less than 1000 cells
 
-Copyright (c) 2020, Bacterial Cell Biology Lab, ITQB-UNL
+Copyright (c) 2020, Bacterial Cell Biology Lab, ITQB-NOVA
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
