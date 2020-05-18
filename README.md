@@ -19,7 +19,9 @@
 	- then inside the selected folder it will save an html report containing the result of the analysis
 - Both options can be used to test the code using the example data in the "example" folder
 	- expected result can be seen in the file "report.html" contained in the example folder
-  
+
+- Code execution should take less than 1 minute for batches of less than 1000 cells
+
 Copyright (c) 2020, Bacterial Cell Biology Lab, ITQB-UNL
 All rights reserved.
 
