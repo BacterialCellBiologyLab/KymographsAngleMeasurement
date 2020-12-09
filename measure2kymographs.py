@@ -10,11 +10,15 @@ from tkinter import filedialog
 app = AngleManager()
 app.load_kymographs()
 
+#computes orientation vector
 app.compute_coords(method="PCA")
 
+#computes angle line
 app.compute_regression()
 
+#calculates the angle value for each kymograph
 app.compute_angles()
+print("Kym1 Angle: " + str(app.kym1_angle) + "; Kym2 Angle: " + str(app.kym2_angle) + " ; Angle Diff: " + str(app.angle_diff))
 
 save_path = filedialog.askdirectory()
 
