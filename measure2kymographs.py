@@ -10,7 +10,7 @@ from tkinter import filedialog
 app = AngleManager()
 app.load_kymographs()
 
-app.compute_coords(method="Box")
+app.compute_coords(method="PCA")
 
 app.compute_regression()
 
